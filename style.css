@@ -1,10 +1,21 @@
-ul {
-  padding: 0;
-  margin: 0;
+.page_header {
+  background-color: #1B3764;
 }
 
-body {
-  background-color: #1b3764;
+.about_book {
+  background-color: #1B3764;
+}
+
+.about_author {
+  background-color: #969AA0;
+}
+
+.get_book {
+  background-color: #1B3764;
+}
+
+.book_img {
+  background-color: #1B3764;
 }
 
 /* header style start */
