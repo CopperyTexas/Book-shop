@@ -22,6 +22,11 @@
   background-color: #1B3764;
 }
 
+.review_box {
+  background-color: #1B3764;
+}
+
+
 /* header style start */
 .page_header {
   display: flex;
@@ -86,4 +91,24 @@
 
 .navigation_list {
   list-style-type: none;
+}
+
+.circle {
+  --circle-active: #FFCA42;
+  --circle-inactive: none;
+  fill: var(--circle-inactive);
+}
+
+.circle.active {
+  fill: var(--circle-active);
+}
+
+.circle_blue {
+  --circle-active: #FFCA42;
+  --circle-inactive: none;
+  fill: var(--circle-inactive);
+}
+
+.circle_blue.active {
+  fill: var(--circle-active);
 }
