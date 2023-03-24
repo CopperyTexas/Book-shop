@@ -141,13 +141,14 @@ legend {
   background-color: #1b3764;
 }
 .page_container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 /* header style start */
 .page_header {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   padding: 32px 70px;
   background-color: #1b3764;
@@ -177,7 +178,13 @@ legend {
   width: 45px;
   height: 45px;
 }
-
+.order_button {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #ffca42;
+  text-decoration: none;
+  border-radius: 3px;
+}
 .social_link {
   display: block;
   width: 45px;
@@ -199,13 +206,22 @@ legend {
 .navigation_list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px;
+  gap: 50px;
   margin-right: 40px;
 }
 .order_list {
   display: flex;
   flex-wrap: wrap;
-  gap: 52px;
+  align-items: center;
+  gap: 50px;
+}
+.order {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #1b3764;
 }
 /* social icon start */
 .header_social_fb {
