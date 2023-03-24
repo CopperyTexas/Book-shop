@@ -1,38 +1,39 @@
 .page_header {
-  background-color: #1B3764;
+  background-color: #1b3764;
 }
 
 .about_book {
-  background-color: #1B3764;
+  background-color: #1b3764;
 }
 
 .about_author {
-  background-color: #F5F8FC;
+  background-color: #f5f8fc;
 }
 
 .enhance {
-  background-color: #F5F8FC;
+  background-color: #f5f8fc;
 }
 
 .get_book {
-  background-color: #1B3764;
+  background-color: #1b3764;
 }
 
 .book_img {
-  background-color: #1B3764;
+  background-color: #1b3764;
 }
 
 .review_box {
-  background-color: #1B3764;
+  background-color: #1b3764;
 }
-
 
 /* header style start */
 .page_header {
   display: flex;
   flex-wrap: wrap;
 }
-
+.page_footer {
+  background-color: #1b3764;
+}
 .logo {
   text-decoration: none;
   margin-right: 40px;
@@ -78,6 +79,20 @@
 .header_social_in {
   background-image: url(/img/logo_in.svg);
 }
+.footer_social_fb {
+  background-image: url(/img/footer_social_fb.svg);
+}
+
+.footer_social_tw {
+  background-image: url(/img/footer_social_tw.svg);
+}
+
+.footer_social_in {
+  background-image: url(/img/footer_social_in.svg);
+}
+.footer_social_inst {
+  background-image: url(/img/footer_social_inst.svg);
+}
 
 .navigation_link {
   font-family: "Inter";
@@ -94,7 +109,7 @@
 }
 
 .circle {
-  --circle-active: #FFCA42;
+  --circle-active: #ffca42;
   --circle-inactive: none;
   fill: var(--circle-inactive);
 }
@@ -104,7 +119,7 @@
 }
 
 .circle_blue {
-  --circle-active: #FFCA42;
+  --circle-active: #ffca42;
   --circle-inactive: none;
   fill: var(--circle-inactive);
 }
