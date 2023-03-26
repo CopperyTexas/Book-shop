@@ -373,6 +373,18 @@ legend {
   margin-bottom: 126px;
   grid-column: 1/5;
   grid-row: 1/2;
+  position: relative;
+}
+
+.author_book h3::after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #ffca42;
+  position: absolute;
+  left: 48%;
+  top: 200px;
 }
 
 .description_book {
