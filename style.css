@@ -696,6 +696,7 @@ legend {
   line-height: 28px;
   color: #b4c7e7;
   max-width: 540px;
+  margin-bottom: 40px;
 }
 .get_book_order {
   font-family: "Cardo";
@@ -705,7 +706,43 @@ legend {
   line-height: 28px;
   border: 2px solid #ffca42;
   color: #ffffff;
-  padding: 19px 50px;
+  padding: 19px 55px;
+}
+/* learn style start */
+.learn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 280px 1fr 1fr;
+  gap: 110px;
+  padding: 0px 70px;
+}
+.learn_img {
+  grid-column: 3/5;
+  grid-row: 2/4;
+}
+.learn h3 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  color: #1b3764;
+  text-align: center;
+  padding-top: 126px;
+  margin-bottom: 76px;
+  position: relative;
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+.learn h3::after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  position: absolute;
+  left: 48%;
+  top: 200px;
 }
 /* social icon start */
 .header_social_fb {
