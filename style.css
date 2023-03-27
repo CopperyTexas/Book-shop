@@ -688,6 +688,25 @@ legend {
   position: absolute;
   top: 145px;
 }
+.get_book_text .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #b4c7e7;
+  max-width: 540px;
+}
+.get_book_order {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  border: 2px solid #ffca42;
+  color: #ffffff;
+  padding: 19px 50px;
+}
 /* social icon start */
 .header_social_fb {
   background-image: url(/img/logo_facebook.svg);
