@@ -135,7 +135,7 @@ legend {
 }
 
 .page_container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -1138,7 +1138,7 @@ legend {
 /* articles style start */
 .articles {
   background-color: #f4f8ff;
-  padding: 110px 70px;
+  padding: 110px 20px;
 
 }
 
