@@ -301,8 +301,8 @@ legend {
 .main_about_list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
   padding-left: 20px;
+  padding-right: 110px;
 }
 
 .main_about_list dt::before {
@@ -1146,6 +1146,7 @@ legend {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 30px;
 }
 
 .articles_box {
