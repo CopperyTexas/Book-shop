@@ -1226,6 +1226,79 @@ legend {
   top: 80px;
 }
 
+/* subscribe style */
+.subscribe {
+  padding: 120px 70px;
+}
+
+.subscribe_box {
+  background-color: #ffca42;
+  padding: 100px 150px;
+  text-align: center;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.subscribe_box h3 {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  color: #1b3764;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.subscribe_box h3:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #1b3764;
+  position: absolute;
+  left: 48%;
+  top: 70px;
+}
+
+.subscribe_box .text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1b3764;
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+}
+
+.email {
+  max-width: 656px;
+  max-height: 70px;
+  background-color: #ffffff;
+  padding: 20px 488px 20px 38px;
+}
+
+.subscribe_form {
+  display: grid;
+  grid-template-columns: 66% 34%;
+  grid-template-rows: 1fr;
+  gap: 16px;
+}
+
+.subscribe_button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #1b3764;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  max-width: 328px;
+}
+
 /* social icon start */
 .header_social_fb {
   background-image: url(/img/logo_facebook.svg);
