@@ -1135,6 +1135,96 @@ legend {
   grid-row: 1/3;
 }
 
+/* articles style start */
+.articles {
+  background-color: #f4f8ff;
+  padding: 110px 70px;
+
+}
+
+.articles_position {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.articles_box {
+  background-color: #ffffff;
+  max-width: 420px;
+}
+
+.box_info {
+  padding: 25px 30px 30px 30px;
+}
+
+.box_info .text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #969aa0;
+  margin-bottom: 15px;
+}
+
+.articles_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.readmore {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #1b3764;
+  border-bottom: 2px solid #1b3764;
+}
+
+.date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1b3764;
+}
+
+.box_info h4 {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1b3764;
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+.articles h3 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  color: #1b3764;
+  text-align: center;
+  margin-bottom: 96px;
+  position: relative;
+}
+
+.articles h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ffca42;
+  position: absolute;
+  left: 48%;
+  top: 80px;
+}
+
 /* social icon start */
 .header_social_fb {
   background-image: url(/img/logo_facebook.svg);
