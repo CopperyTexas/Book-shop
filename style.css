@@ -805,7 +805,7 @@ legend {
   height: 50px;
   background-color: #ffca42;
   border-radius: 100%;
-  background-image: url(/img/01.svg);
+  background-image: url(./img/01.svg);
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -820,7 +820,7 @@ legend {
   height: 50px;
   background-color: #ffca42;
   border-radius: 100%;
-  background-image: url(/img/02.svg);
+  background-image: url(./img/02.svg);
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -835,7 +835,7 @@ legend {
   height: 50px;
   background-color: #ffca42;
   border-radius: 100%;
-  background-image: url(/img/03.svg);
+  background-image: url(./img/03.svg);
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -850,7 +850,7 @@ legend {
   height: 50px;
   background-color: #ffca42;
   border-radius: 100%;
-  background-image: url(/img/04.svg);
+  background-image: url(./img/04.svg);
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
