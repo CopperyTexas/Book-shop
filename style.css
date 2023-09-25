@@ -1442,34 +1442,34 @@ legend {
 
 /* social icon start */
 .header_social_fb {
-  background-image: url(/img/logo_facebook.svg);
+  background-image: url(./img/logo_facebook.svg);
 }
 
 .header_social_tw {
-  background-image: url(/img/logo_twitter.svg);
+  background-image: url(./img/logo_twitter.svg);
 }
 
 .header_social_in {
-  background-image: url(/img/logo_in.svg);
+  background-image: url(./img/logo_in.svg);
 }
 
 .footer_social_fb {
-  background-image: url(/img/footer_social_fb.svg);
+  background-image: url(./img/footer_social_fb.svg);
   background-color: #1b3764;
 }
 
 .footer_social_tw {
-  background-image: url(/img/footer_social_tw.svg);
+  background-image: url(./img/footer_social_tw.svg);
   background-color: #1b3764;
 }
 
 .footer_social_in {
-  background-image: url(/img/footer_social_in.svg);
+  background-image: url(./img/footer_social_in.svg);
   background-color: #1b3764;
 }
 
 .footer_social_inst {
-  background-image: url(/img/footer_social_inst.svg);
+  background-image: url(./img/footer_social_inst.svg);
   background-color: #1b3764;
 }
 
